@@ -62,7 +62,7 @@ public class Postfix {
     
 		ArrayDeque<Double> stackOfNumber = new ArrayDeque<Double>();
     
-		try{
+		try {
 			if(queueInput.isEmpty())
 			{
 				throw new IOException("User did not enter an input");
@@ -81,7 +81,7 @@ public class Postfix {
 				if (stackOfNumber.size() <= 1) 
         {
 					throw new RuntimeException("Malformed Input. Please restart the program and use proper Postfix notation.");
-				
+				}
         double result;
         Character operator = (Character) token;
         double first = stackOfNumber.removeFirst();

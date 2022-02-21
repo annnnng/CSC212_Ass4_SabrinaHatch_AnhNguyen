@@ -5,6 +5,8 @@ import java.util.ArrayDeque;
 /** 
  * Class to interpret and compute the result of arithmetic expressions 
  * in INFIX format - 
+ *
+ * @author Anh Nguyen, Sabrina Hatch
  */
 public class Calculate {
 
@@ -166,5 +168,4 @@ public class Calculate {
       calculate(args[0]);
     }
   }
-
 }
