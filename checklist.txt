@@ -13,18 +13,18 @@ your work, please indicate the status of each item
 
 Postfix.java:
 
-_____ 1 pts: Pushes numeric tokens onto the stack
+__YES___ 1 pts: Pushes numeric tokens onto the stack
 
-_____ 2 pts: Processes operators by popping & combining numbers
+__YES___ 2 pts: Processes operators by popping & combining numbers
 
-_____ 2 pts: Produces correct answer to any valid postfix expression
+__YES___ 2 pts: Produces correct answer to any valid postfix expression
 
-_____ 1 pts: Throws an exception with an informative error message in case of malformed expressions
+__YES___ 1 pts: Throws an exception with an informative error message in case of malformed expressions
 
 
 Calculate.java:
 
-_____ 1 pts: Implements shunting-yard algorithm to produce queue of tokens
+__YES___ 1 pts: Implements shunting-yard algorithm to produce queue of tokens
 
 _____ 1 pt: Output of shunt yard passed to postfix via queue
 
