@@ -54,8 +54,10 @@ public class Postfix {
   /**
    * Class to interpret and compute the result of expressions in POSTFIX format -
    * 
-   * @param queueInput a queue that contains the tokens of postfix expressions
-   * @throws 
+   * 	@param queueInput a queue that contains the tokens of postfix expressions
+   * 	@throws IOException	User did not enter anything.
+	 *	@throws RuntimeException	Not enough number to perform operation.
+	 * 	@throws	ArithmeticException	Malformed postfix expression. 
    */
    
   public static void postfixCalculator(ArrayDeque<Object> queueInput) {
